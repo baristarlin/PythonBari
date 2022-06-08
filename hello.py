@@ -2,4 +2,4 @@ import valohai
 
 print("Hello World")
 
-valohai.prepare(step="moi")
+valohai.prepare(step="ok")

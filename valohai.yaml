@@ -5,6 +5,12 @@
     - pip install -r requirements.txt
     - python ./hello.py {parameters}
 - step:
+    name: ok
+    image: python:3.7
+    command:
+    - pip install -r requirements.txt
+    - python ./hello.py {parameters}
+- step:
     name: preproces
     image: python:3.7
     command:
